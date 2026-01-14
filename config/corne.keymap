@@ -15,8 +15,8 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_game {
-            bindings = <&tog 3>;
+        momentary_fun {
+            bindings = <&mo 4>;
             key-positions = <36 41>;
             timeout-ms = <200>;
         };
@@ -25,6 +25,11 @@
             bindings = <&kp ESC>;
             key-positions = <1 2>;
             layers = <3>;
+        };
+
+        toggle_game {
+            bindings = <&tog 3>;
+            key-positions = <38 39>;
         };
     };
 
